@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tokopedia</string>
+    <string name="cari_produk">Cari Powerbank</string>
+    <string name="location_text">Dikirim ke <b>Farhan Fadhlurrahman Arkaan</b></string>
+    <string name="member">Mamber Gold</string>
+    <string name="category">Category Name</string>
+</resources>
