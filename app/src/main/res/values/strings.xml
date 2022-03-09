@@ -4,4 +4,21 @@
     <string name="location_text">Dikirim ke <b>Farhan Fadhlurrahman Arkaan</b></string>
     <string name="member">Mamber Gold</string>
     <string name="category">Category Name</string>
+    <string name="berakhir_dalam">Berakhir dalam</string>
+    <string name="loc_jakarta_barat">Jakarta Barat</string>
+    <string name="bebas_ongkir">Bebas Ongkir</string>
+    <string name="line"><strike> Rp 94.000 </strike> </string>
+    <string name="goride">GoRide</string>
+    <string name="gocar">GoCar</string>
+    <string name="gofood">GoFood</string>
+    <string name="gosend">GoSend</string>
+    <string name="gomart">GoMart</string>
+    <string name="gopulsa">GoPulsa</string>
+    <string name="checkin">CheckIn</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="lihat">Lihat Semua</string>
+    <string name="menit">09 menit 26 detik</string>
+    <string name="kejar_diskon">Kejar Diskon</string>
+    <string name="video_menarik">Video menarik untukmu</string>
+    <string name="lihat_all">Lihat Semua</string>
 </resources>

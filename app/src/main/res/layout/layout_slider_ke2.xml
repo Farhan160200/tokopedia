@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="10dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/slider_tokped" />
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="9sp"
+                android:text="Rp 10,000"/>
+            <!--            <TextView-->
+            <!--                android:id="@+id/name_produk"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginVertical="3dp"-->
+            <!--                android:text="Nama Produk"-->
+            <!--                android:textSize="12sp" />-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_marginTop="3dp"
+                android:backgroundTint="#EF8DB0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_marginVertical="1dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F44A4A"
+                    android:textSize="9sp"
+                    android:text="26%"/>
+
+            </com.google.android.material.card.MaterialCardView>
+                <TextView
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/line"
+                    android:textSize="9sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.card.MaterialCardView
+                    android:backgroundTint="@color/dark_purple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_baseline_check_24"
+                    android:tint="#FFEB3B"/>
+                </com.google.android.material.card.MaterialCardView>
+
+                <TextView
+                    android:layout_marginStart="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="3dp"
+                    android:text="@string/loc_jakarta_barat"
+                    android:textSize="9sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginStart="-1dp"
+                android:textColor="#037A33"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="1dp"
+                android:text="@string/bebas_ongkir"
+                android:textSize="9sp"
+                android:textStyle="bold"
+                android:fontFamily="cursive"/>
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="10dp">
+
+            <ProgressBar
+                android:progress="10"
+                android:layout_marginTop="3dp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="129dp"
+                android:layout_height="3dp"
+                android:background="@color/red"
+                android:backgroundTint="@color/red" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_marginTop="-3dp"
+                android:layout_marginStart="-5dp"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/ic_fire"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segera Habis"
+                android:textSize="10sp"
+                android:textStyle="bold"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/slider_tokped" />
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="9sp"
+                    android:text="Rp 10,000"/>
+                <!--            <TextView-->
+                <!--                android:id="@+id/name_produk"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginVertical="3dp"-->
+                <!--                android:text="Nama Produk"-->
+                <!--                android:textSize="12sp" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="#EF8DB0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_marginVertical="1dp"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#F44A4A"
+                            android:textSize="9sp"
+                            android:text="26%"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <TextView
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/line"
+                        android:textSize="9sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView
+                        android:backgroundTint="@color/dark_purple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_baseline_check_24"
+                            android:tint="#FFEB3B"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:layout_marginStart="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="3dp"
+                        android:text="@string/loc_jakarta_barat"
+                        android:textSize="9sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginStart="-1dp"
+                    android:textColor="#037A33"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginVertical="1dp"
+                    android:text="@string/bebas_ongkir"
+                    android:textSize="9sp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"/>
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:layout_height="10dp">
+
+                    <ProgressBar
+                        android:progress="10"
+                        android:layout_marginTop="3dp"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="129dp"
+                        android:layout_height="3dp"
+                        android:background="@color/red"
+                        android:backgroundTint="@color/red" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_marginTop="-3dp"
+                        android:layout_marginStart="-5dp"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_fire"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Segera Habis"
+                    android:textSize="10sp"
+                    android:textStyle="bold"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="2dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="160dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/slider_tokped" />
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="9sp"
+                    android:text="Rp 10,000"/>
+                <!--            <TextView-->
+                <!--                android:id="@+id/name_produk"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginVertical="3dp"-->
+                <!--                android:text="Nama Produk"-->
+                <!--                android:textSize="12sp" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="#EF8DB0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:layout_marginVertical="1dp"
+                            android:layout_marginHorizontal="1dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#F44A4A"
+                            android:textSize="9sp"
+                            android:text="26%"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <TextView
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/line"
+                        android:textSize="9sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView
+                        android:backgroundTint="@color/dark_purple"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/ic_baseline_check_24"
+                            android:tint="#FFEB3B"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:layout_marginStart="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="3dp"
+                        android:text="@string/loc_jakarta_barat"
+                        android:textSize="9sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginStart="-1dp"
+                    android:textColor="#037A33"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginVertical="1dp"
+                    android:text="@string/bebas_ongkir"
+                    android:textSize="9sp"
+                    android:textStyle="bold"
+                    android:fontFamily="cursive"/>
+                <LinearLayout
+                    android:layout_width="140dp"
+                    android:layout_height="10dp">
+
+                    <ProgressBar
+                        android:progress="10"
+                        android:layout_marginTop="3dp"
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="129dp"
+                        android:layout_height="3dp"
+                        android:background="@color/red"
+                        android:backgroundTint="@color/red" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_marginTop="-3dp"
+                        android:layout_marginStart="-5dp"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/ic_fire"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Segera Habis"
+                    android:textSize="10sp"
+                    android:textStyle="bold"/>
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
+
+
