@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -14,7 +15,6 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_marginEnd="10dp"
@@ -31,8 +31,9 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/slider_tokped" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/scarlet"
+            tools:ignore="ContentDescription" />
 
 
 
@@ -48,7 +49,8 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="9sp"
-                android:text="Rp 10,000"/>
+                android:text="@string/harga_rp"
+                tools:ignore="SmallSp"/>
             <!--            <TextView-->
             <!--                android:id="@+id/name_produk"-->
             <!--                android:layout_width="wrap_content"-->
@@ -75,7 +77,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="#F44A4A"
                     android:textSize="9sp"
-                    android:text="26%"/>
+                    android:text="@string/persen_diskon"
+                    tools:ignore="SmallSp"/>
 
             </com.google.android.material.card.MaterialCardView>
                 <TextView
@@ -84,7 +87,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/line"
-                    android:textSize="9sp"/>
+                    android:textSize="9sp"
+                    tools:ignore="SmallSp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -112,7 +116,8 @@
                     android:layout_marginVertical="3dp"
                     android:text="@string/loc_jakarta_barat"
                     android:textSize="9sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp" />
             </LinearLayout>
 
 
@@ -126,33 +131,35 @@
                 android:text="@string/bebas_ongkir"
                 android:textSize="9sp"
                 android:textStyle="bold"
-                android:fontFamily="cursive"/>
+                android:fontFamily="cursive"
+                tools:ignore="SmallSp"/>
             <LinearLayout
                 android:layout_width="140dp"
                 android:layout_height="10dp">
 
             <ProgressBar
-                android:progress="10"
+                android:progress="90"
                 android:layout_marginTop="3dp"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="129dp"
                 android:layout_height="3dp"
-                android:background="@color/red"
+                android:progressTint="@color/red"
                 android:backgroundTint="@color/red" />
 
             <androidx.appcompat.widget.AppCompatImageView
-                android:layout_marginTop="-3dp"
-                android:layout_marginStart="-5dp"
-                android:layout_width="12dp"
-                android:layout_height="12dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginStart="-20dp"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
                 android:src="@drawable/ic_fire"/>
             </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Segera Habis"
+                android:text="@string/segera_habis"
                 android:textSize="10sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                tools:ignore="SmallSp"/>
 
 
 
@@ -165,7 +172,6 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_marginEnd="10dp"
@@ -182,8 +188,9 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/slider_tokped" />
+                android:scaleType="fitCenter"
+                android:src="@drawable/mouse"
+                tools:ignore="ContentDescription" />
 
 
 
@@ -199,7 +206,8 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="9sp"
-                    android:text="Rp 10,000"/>
+                    android:text="@string/harga_rp"
+                    tools:ignore="SmallSp"/>
                 <!--            <TextView-->
                 <!--                android:id="@+id/name_produk"-->
                 <!--                android:layout_width="wrap_content"-->
@@ -224,9 +232,10 @@
                             android:layout_marginHorizontal="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#F44A4A"
+                            android:textColor="@color/pink"
                             android:textSize="9sp"
-                            android:text="26%"/>
+                            android:text="@string/persen_diskon"
+                            tools:ignore="SmallSp"/>
 
                     </com.google.android.material.card.MaterialCardView>
                     <TextView
@@ -235,7 +244,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/line"
-                        android:textSize="9sp"/>
+                        android:textSize="9sp"
+                        tools:ignore="SmallSp"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -253,7 +263,7 @@
                             android:layout_width="15dp"
                             android:layout_height="15dp"
                             android:src="@drawable/ic_baseline_check_24"
-                            android:tint="#FFEB3B"/>
+                            android:tint="@color/yellow"/>
                     </com.google.android.material.card.MaterialCardView>
 
                     <TextView
@@ -263,7 +273,8 @@
                         android:layout_marginVertical="3dp"
                         android:text="@string/loc_jakarta_barat"
                         android:textSize="9sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        tools:ignore="SmallSp"/>
                 </LinearLayout>
 
 
@@ -277,33 +288,37 @@
                     android:text="@string/bebas_ongkir"
                     android:textSize="9sp"
                     android:textStyle="bold"
-                    android:fontFamily="cursive"/>
+                    android:fontFamily="cursive"
+                    tools:ignore="SmallSp"/>
                 <LinearLayout
                     android:layout_width="140dp"
                     android:layout_height="10dp">
 
                     <ProgressBar
-                        android:progress="10"
+                        android:progress="90"
                         android:layout_marginTop="3dp"
                         style="?android:attr/progressBarStyleHorizontal"
                         android:layout_width="129dp"
                         android:layout_height="3dp"
-                        android:background="@color/red"
+                        android:progressTint="@color/red"
                         android:backgroundTint="@color/red" />
 
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_marginTop="-3dp"
-                        android:layout_marginStart="-5dp"
-                        android:layout_width="12dp"
-                        android:layout_height="12dp"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginStart="-20dp"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
                         android:src="@drawable/ic_fire"/>
+
+
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Segera Habis"
+                    android:text="@string/segera_habis"
                     android:textSize="10sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp"/>
 
 
 
@@ -316,7 +331,6 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:layout_marginEnd="10dp"
@@ -334,7 +348,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="88dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/slider_tokped" />
+                android:src="@drawable/monitor"
+                tools:ignore="ContentDescription" />
 
 
 
@@ -350,14 +365,8 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="9sp"
-                    android:text="Rp 10,000"/>
-                <!--            <TextView-->
-                <!--                android:id="@+id/name_produk"-->
-                <!--                android:layout_width="wrap_content"-->
-                <!--                android:layout_height="wrap_content"-->
-                <!--                android:layout_marginVertical="3dp"-->
-                <!--                android:text="Nama Produk"-->
-                <!--                android:textSize="12sp" />-->
+                    android:text="@string/harga_rp"
+                    tools:ignore="SmallSp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -375,9 +384,10 @@
                             android:layout_marginHorizontal="1dp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#F44A4A"
+                            android:textColor="@color/pink"
                             android:textSize="9sp"
-                            android:text="26%"/>
+                            android:text="@string/persen_diskon"
+                            tools:ignore="SmallSp"/>
 
                     </com.google.android.material.card.MaterialCardView>
                     <TextView
@@ -386,7 +396,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/line"
-                        android:textSize="9sp"/>
+                        android:textSize="9sp"
+                        tools:ignore="SmallSp"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -414,7 +425,8 @@
                         android:layout_marginVertical="3dp"
                         android:text="@string/loc_jakarta_barat"
                         android:textSize="9sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold"
+                        tools:ignore="SmallSp"/>
                 </LinearLayout>
 
 
@@ -428,34 +440,37 @@
                     android:text="@string/bebas_ongkir"
                     android:textSize="9sp"
                     android:textStyle="bold"
-                    android:fontFamily="cursive"/>
+                    android:fontFamily="cursive"
+                    tools:ignore="SmallSp"/>
+
                 <LinearLayout
                     android:layout_width="140dp"
                     android:layout_height="10dp">
 
                     <ProgressBar
-                        android:progress="10"
+                        android:progress="90"
                         android:layout_marginTop="3dp"
-                        android:id="@+id/progressBar"
                         style="?android:attr/progressBarStyleHorizontal"
                         android:layout_width="129dp"
                         android:layout_height="3dp"
-                        android:background="@color/red"
+                        android:progressTint="@color/red"
                         android:backgroundTint="@color/red" />
 
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_marginTop="-3dp"
-                        android:layout_marginStart="-5dp"
-                        android:layout_width="12dp"
-                        android:layout_height="12dp"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginStart="-20dp"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
                         android:src="@drawable/ic_fire"/>
+
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Segera Habis"
+                    android:text="@string/segera_habis"
                     android:textSize="10sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    tools:ignore="SmallSp"/>
 
 
 

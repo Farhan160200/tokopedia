@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_horizontal"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_marginEnd="10dp"
     android:layout_marginBottom="2dp"
     app:cardCornerRadius="10dp">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+
 
         <com.google.android.material.card.MaterialCardView
             android:layout_marginEnd="10dp"
@@ -34,14 +32,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
-            android:src="@drawable/slider_tokped" />
+            android:src="@drawable/kopi"
+            tools:ignore="ContentDescription" />
 
         <com.google.android.material.card.MaterialCardView
             android:layout_marginStart="5dp"
             android:layout_marginTop="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:alpha="0.7"
+            android:alpha="0.6"
             android:backgroundTint="@color/black">
 
             <LinearLayout
@@ -53,10 +52,10 @@
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:src="@drawable/ic_baseline_star_24"
-                    android:tint="#FFEB3B"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_eye"
+                    android:tint="@color/white"
                     android:layout_marginBottom="2dp"/>
 
                 <TextView
@@ -64,9 +63,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:text="2.5 rb"
+                    android:text="@string/_2_5_rb"
                     android:textColor="@color/white"
-                    android:textSize="9dp"
+                    android:textSize="11sp"
                     android:layout_marginBottom="2dp"/>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -76,7 +75,7 @@
             android:layout_marginTop="110dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:alpha="0.9"
+            android:alpha="0.8"
             android:backgroundTint="@color/green_tokped">
 
             <LinearLayout
@@ -88,10 +87,10 @@
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="10dp"
-                    android:layout_height="10dp"
-                    android:src="@drawable/ic_baseline_star_24"
-                    android:tint="#FFEB3B"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_eye"
+                    android:tint="@color/white"
                     android:layout_marginBottom="2dp"/>
 
                 <TextView
@@ -99,9 +98,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:text="kupon special"
+                    android:text="@string/kupon_special"
                     android:textColor="@color/white"
-                    android:textSize="9dp"
+                    android:textSize="11sp"
                     android:layout_marginBottom="2dp"/>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -130,7 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="3dp"
                     android:layout_marginVertical="1dp"
-                    android:text="Keep and Calm With Uchiihs"
+                    android:text="@string/keep_and_calm"
                     android:textSize="13sp" />
                 <TextView
 
@@ -138,8 +137,8 @@
                     android:layout_height="13dp"
                     android:layout_marginHorizontal="3dp"
                     android:layout_marginVertical="1dp"
-                    android:text="Keep and Calm With Uchiihs"
-                    android:textSize="9sp" />
+                    android:text="@string/uchiih_store"
+                    android:textSize="11sp" />
                 <!--                <TextView-->
                 <!--                    -->
                 <!--                    android:layout_marginHorizontal="10dp"-->
@@ -188,14 +187,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/slider_tokped" />
+                    android:src="@drawable/cola_real"
+                    tools:ignore="ContentDescription" />
 
                 <com.google.android.material.card.MaterialCardView
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:alpha="0.7"
+                    android:alpha="0.6"
                     android:backgroundTint="@color/black">
 
                     <LinearLayout
@@ -207,10 +207,10 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:src="@drawable/ic_baseline_star_24"
-                            android:tint="#FFEB3B"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/ic_eye"
+                            android:tint="@color/white"
                             android:layout_marginBottom="2dp"/>
 
                         <TextView
@@ -218,9 +218,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="2dp"
-                            android:text="2.5 rb"
+                            android:text="@string/_2_5_rb"
                             android:textColor="@color/white"
-                            android:textSize="9dp"
+                            android:textSize="11sp"
                             android:layout_marginBottom="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
@@ -230,7 +230,7 @@
                     android:layout_marginTop="110dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:alpha="0.9"
+                    android:alpha="0.8"
                     android:backgroundTint="@color/green_tokped">
 
                     <LinearLayout
@@ -242,10 +242,10 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:src="@drawable/ic_baseline_star_24"
-                            android:tint="#FFEB3B"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/ic_eye"
+                            android:tint="@color/white"
                             android:layout_marginBottom="2dp"/>
 
                         <TextView
@@ -253,10 +253,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="2dp"
-                            android:text="kupon special"
+                            android:text="@string/kupon_special"
                             android:textColor="@color/white"
-                            android:textSize="9dp"
-                            android:layout_marginBottom="2dp"/>
+                            android:textSize="11sp"
+                            android:layout_marginBottom="2dp"
+                            tools:ignore="SmallSp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -284,7 +285,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="3dp"
                             android:layout_marginVertical="1dp"
-                            android:text="Keep and Calm With Uchiihs"
+                            android:text="@string/cola"
                             android:textSize="13sp" />
                         <TextView
 
@@ -292,8 +293,9 @@
                             android:layout_height="13dp"
                             android:layout_marginHorizontal="3dp"
                             android:layout_marginVertical="1dp"
-                            android:text="Keep and Calm With Uchiihs"
-                            android:textSize="9sp" />
+                            android:text="@string/coca_cola_company"
+                            android:textSize="9sp"
+                            tools:ignore="SmallSp" />
                         <!--                <TextView-->
                         <!--                    -->
                         <!--                    android:layout_marginHorizontal="10dp"-->
@@ -342,14 +344,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/slider_tokped" />
+                    android:src="@drawable/gg_gaming"
+                    tools:ignore="ContentDescription" />
 
                 <com.google.android.material.card.MaterialCardView
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:alpha="0.7"
+                    android:alpha="0.6"
                     android:backgroundTint="@color/black">
 
                     <LinearLayout
@@ -361,10 +364,10 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:src="@drawable/ic_baseline_star_24"
-                            android:tint="#FFEB3B"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/ic_eye"
+                            android:tint="@color/white"
                             android:layout_marginBottom="2dp"/>
 
                         <TextView
@@ -372,9 +375,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="2dp"
-                            android:text="2.5 rb"
+                            android:text="@string/_2_5_rb"
                             android:textColor="@color/white"
-                            android:textSize="9dp"
+                            android:textSize="11sp"
                             android:layout_marginBottom="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
@@ -384,7 +387,7 @@
                     android:layout_marginTop="110dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:alpha="0.9"
+                    android:alpha="0.8"
                     android:backgroundTint="@color/green_tokped">
 
                     <LinearLayout
@@ -396,10 +399,10 @@
                         android:orientation="horizontal">
 
                         <androidx.appcompat.widget.AppCompatImageView
-                            android:layout_width="10dp"
-                            android:layout_height="10dp"
-                            android:src="@drawable/ic_baseline_star_24"
-                            android:tint="#FFEB3B"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:src="@drawable/ic_eye"
+                            android:tint="@color/white"
                             android:layout_marginBottom="2dp"/>
 
                         <TextView
@@ -407,10 +410,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="2dp"
-                            android:text="kupon special"
+                            android:text="@string/kupon_special"
                             android:textColor="@color/white"
-                            android:textSize="9dp"
-                            android:layout_marginBottom="2dp"/>
+                            android:textSize="11sp"
+                            android:layout_marginBottom="2dp"
+                            tools:ignore="SmallSp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -438,7 +442,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="3dp"
                             android:layout_marginVertical="1dp"
-                            android:text="Keep and Calm With Uchiihs"
+                            android:text="@string/gaming_gear_paling_gg_kece_mantap"
                             android:textSize="13sp" />
                         <TextView
 
@@ -446,8 +450,9 @@
                             android:layout_height="13dp"
                             android:layout_marginHorizontal="3dp"
                             android:layout_marginVertical="1dp"
-                            android:text="Keep and Calm With Uchiihs"
-                            android:textSize="9sp" />
+                            android:text="@string/logitech_company"
+                            android:textSize="9sp"
+                            tools:ignore="SmallSp"/>
                         <!--                <TextView-->
                         <!--                    -->
                         <!--                    android:layout_marginHorizontal="10dp"-->
@@ -478,5 +483,5 @@
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
 
-    </LinearLayout>
+
 </LinearLayout>

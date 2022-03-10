@@ -11,4 +11,6 @@
     <color name="grey">#808080</color>
     <color name="dark_purple">#5D076C</color>
     <color name="red">#DF0000</color>
+    <color name="pink">#F44A4A</color>
+    <color name="yellow">#FFEB3B</color>
 </resources>

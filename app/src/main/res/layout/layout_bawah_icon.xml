@@ -10,7 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_half_oval" />
+        android:src="@drawable/ic_half_oval"
+        tools:ignore="ContentDescription" />
 
     <LinearLayout
             android:paddingHorizontal="10dp"
@@ -55,7 +56,8 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -80,7 +82,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="11sp"
-                            android:text="Rp.."
+                            android:text="@string/nominal_gopay"
                             android:textColor="@color/black"
                             app:layout_constraintStart_toEndOf="@id/gopay_logo"
                             app:layout_constraintTop_toTopOf="parent"
@@ -92,7 +94,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="11sp"
-                            android:text="Aktifkan"
+                            android:text="@string/aktifkan_gopay"
                             android:textStyle="bold"
 
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -109,8 +111,8 @@
 
                         <androidx.appcompat.widget.AppCompatImageView
                             android:id="@+id/mamber_logo"
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
                             android:src="@drawable/ic_star_member"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
@@ -132,7 +134,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="11sp"
-                            android:text="11 Kupon"
+                            android:text="@string/kupon_member"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toEndOf="@id/mamber_logo"
                             app:layout_constraintTop_toBottomOf="@id/mamber_kasta"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -20,7 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleType="centerCrop"
-            android:src="@drawable/slider_tokped" />
+            android:src="@drawable/slider_tokped"
+            tools:ignore="ContentDescription" />
 
         <com.google.android.material.card.MaterialCardView
             android:layout_marginStart="5dp"
@@ -50,9 +52,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:text="2.5 rb"
+                    android:text="@string/viewers"
                     android:textColor="@color/white"
-                    android:textSize="9dp"
+                    android:textSize="11sp"
                     android:layout_marginBottom="2dp"/>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -85,9 +87,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:text="kupon special"
+                    android:text="@string/kupon_special"
                     android:textColor="@color/white"
-                    android:textSize="9dp"
+                    android:textSize="11sp"
                     android:layout_marginBottom="2dp"/>
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -116,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="3dp"
                     android:layout_marginVertical="1dp"
-                    android:text="Keep and Calm With Uchiihs"
+                    android:text="@string/keep_and_calm"
                     android:textSize="13sp" />
                 <TextView
 
@@ -124,8 +126,8 @@
                     android:layout_height="13dp"
                     android:layout_marginHorizontal="3dp"
                     android:layout_marginVertical="1dp"
-                    android:text="Keep and Calm With Uchiihs"
-                    android:textSize="9sp" />
+                    android:text="@string/uchiih_store"
+                    android:textSize="11sp" />
 <!--                <TextView-->
 <!--                    -->
 <!--                    android:layout_marginHorizontal="10dp"-->

@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_bawah_icon.xml" value="0.4" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/drawable/ic_check_icon.xml" value="0.101" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/drawable/ic_gadgets.xml" value="0.172" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/drawable/ic_icon_pedulilindungi_gojek.xml" value="0.172" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/drawable/ic_nav_home.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/drawable/ic_stage.xml" value="0.2325" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_bawah_icon.xml" value="0.2747395833333333" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_icon_atas.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_produk_slider.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_produk_slider_notRecycle.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_recycle.xml" value="0.25" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_silder2_nonrec.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_silder2_nonrec.xml" value="0.4" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_slider.xml" value="0.1935185185185185" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_slider1_norec.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_slider1_norec.xml" value="0.176" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/layout_slider_ke2.xml" value="0.4" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/layout/navigation_bottom.xml" value="0.152" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/tokopedia/app/src/main/res/menu/bn_menu.xml" value="0.25" />

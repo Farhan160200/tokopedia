@@ -3,24 +3,29 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_nav_home"
-        android:title="Home"/>
+        android:title="@string/home"
+        android:iconTint="@color/green_tokped"/>
 
     <item
         android:id="@+id/nav_feed"
         android:icon="@drawable/ic_nav_feeds"
-        android:title="Feed"/>
+        android:title="@string/feed"
+        android:iconTint="@color/grey"/>
     <item
         android:id="@+id/nav_official_store"
         android:icon="@drawable/ic_nav_check"
-        android:title="Official Store"/>
+        android:title="@string/official_store"
+        android:iconTint="@color/grey"/>
     <item
         android:id="@+id/nav_love"
         android:icon="@drawable/ic_nav_love"
-        android:title="Feed"/>
+        android:title="@string/wishlist"
+        android:iconTint="@color/grey"/>
     <item
         android:id="@+id/nav_note"
         android:icon="@drawable/ic_nav_note"
-        android:title="Transaction"/>
+        android:title="@string/transaction"
+        android:iconTint="@color/grey"/>
 
 
 

@@ -43,130 +43,144 @@
                             android:layout_height="40dp"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="16dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_check_icon"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
+                            android:textAlignment="center"
+                            tools:ignore="ContentDescription"
                             android:id="@+id/text_object1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/goride"
-                            android:textSize="18sp"
+                            android:text="@string/official_store"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object1"
                             app:layout_constraintStart_toStartOf="@+id/icon_object1"
                             app:layout_constraintTop_toBottomOf="@+id/icon_object1" />
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object2"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="16dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_see_all_icon"
                             app:layout_constraintStart_toEndOf="@+id/icon_object1"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text_object2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gocar"
-                            android:textSize="18sp"
+                            android:text="@string/lihat_semua"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object2"
                             app:layout_constraintStart_toStartOf="@id/icon_object2"
                             app:layout_constraintTop_toBottomOf="@+id/icon_object2" />
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_obeject3"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="24dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_gadgets"
+                            android:backgroundTint="@color/green_tokped"
                             app:layout_constraintEnd_toStartOf="@+id/icon_object4"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
+                            tools:ignore="ContentDescription"
                             android:id="@+id/text_object3"
-                            android:layout_width="wrap_content"
+                            android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/goride"
-                            android:textSize="18sp"
+                            android:text="@string/handphone_tablet"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_obeject3"
                             app:layout_constraintStart_toStartOf="@+id/icon_obeject3"
                             app:layout_constraintTop_toBottomOf="@+id/icon_obeject3" />
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="24dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_nav_note"
                             app:layout_constraintEnd_toStartOf="@id/icon_object5"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text_gofood"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gofood"
-                            android:textSize="18sp"
+                            android:text="@string/top_up_tagihan"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object4"
                             app:layout_constraintStart_toStartOf="@+id/icon_object4"
                             app:layout_constraintTop_toBottomOf="@+id/icon_object4" />
 
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object5"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="24dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_finance"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/text_object5"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gosend"
-                            android:textSize="18sp"
+                            android:text="@string/keuangan"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object5"
                             app:layout_constraintStart_toStartOf="@+id/icon_object5"
                             app:layout_constraintTop_toBottomOf="@+id/icon_object5" />
 
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object6"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="16dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_cupcakes"
                             app:layout_constraintStart_toEndOf="@+id/icon_object2"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text_object6"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gosend"
-                            android:textSize="18sp"
+                            android:text="@string/kebutuhan_harian"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object6"
                             app:layout_constraintStart_toStartOf="@+id/icon_object6"
                             app:layout_constraintTop_toBottomOf="@+id/icon_object6" />
@@ -224,112 +238,123 @@
 
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object1"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginStart="24dp"
                             android:layout_marginTop="16dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/pedulilindungi"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text2_object1"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/goride"
-                            android:textSize="18sp"
+                            android:text="@string/peduli_lindungi"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object1"
                             app:layout_constraintStart_toStartOf="@+id/icon2_object1"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_object1" />
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object2"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginStart="36dp"
                             android:layout_marginTop="16dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/bangga_lokal"
                             app:layout_constraintStart_toEndOf="@+id/icon2_object1"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text2_object2"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gocar"
-                            android:textSize="18sp"
+                            android:text="@string/bangga_lokal"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object2"
                             app:layout_constraintStart_toStartOf="@id/icon2_object2"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_object2" />
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_obeject3"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="36dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/ic_stage"
+
                             app:layout_constraintEnd_toStartOf="@+id/icon2_object4"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text2_object3"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/goride"
-                            android:textSize="18sp"
+                            android:text="@string/bazar_hari_ini"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_obeject3"
                             app:layout_constraintStart_toStartOf="@+id/icon2_obeject3"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_obeject3" />
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="36dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/play"
                             app:layout_constraintEnd_toStartOf="@id/icon2_object5"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text2_gofood"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gofood"
-                            android:textSize="18sp"
+                            android:text="@string/live_shopping"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object4"
                             app:layout_constraintStart_toStartOf="@+id/icon2_object4"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_object4" />
 
 
                         <ImageView
+                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object5"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="36dp"
-                            android:src="@drawable/ic_rec_logo"
+                            android:src="@drawable/bouquet"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
+                            android:textAlignment="center"
                             android:id="@+id/text2_object5"
-                            android:layout_width="wrap_content"
+                            android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
-                            android:text="@string/gosend"
-                            android:textSize="18sp"
+                            android:text="@string/tokopedia_seru"
+                            android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object5"
                             app:layout_constraintStart_toStartOf="@+id/icon2_object5"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_object5" />
@@ -361,7 +386,8 @@
                         android:text="@string/lihat_all"
                         android:textColor="@color/green_tokped"
                         android:textSize="15sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        tools:ignore="RelativeOverlap" />
 
                 </RelativeLayout>
 
@@ -397,7 +423,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/kejar_diskon"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:textSize="15sp"
                         android:textStyle="bold" />
                 </RelativeLayout>
 
@@ -412,7 +438,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/berakhir_dalam"
-                        android:textSize="12dp" />
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
 
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="100dp"
@@ -438,7 +465,8 @@
                             android:text="@string/menit"
                             android:textColor="@color/white"
                             android:textSize="10sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            tools:ignore="SmallSp" />
                     </com.google.android.material.card.MaterialCardView>
 
 
@@ -505,44 +533,15 @@
 
 
         </androidx.core.widget.NestedScrollView>
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="horizontal">-->
 
-<!--        <androidx.appcompat.widget.AppCompatImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/ic_star_member"/>-->
-<!--        <androidx.appcompat.widget.AppCompatImageView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:src="@drawable/ic_star_member"/>-->
 
-<!--            <androidx.appcompat.widget.AppCompatImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/ic_star_member"/>-->
-
-<!--            <androidx.appcompat.widget.AppCompatImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/ic_star_member"/>-->
-
-<!--            <androidx.appcompat.widget.AppCompatImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/ic_star_member"/>-->
-<!--        </LinearLayout>-->
-<!--    </com.google.android.material.navigation.NavigationView>-->
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_nav"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_alignParentBottom="true"
             app:itemIconSize="20dp"
-            app:itemIconTint="@color/black"
-            app:itemTextColor="@color/black"
+            app:itemTextColor="@color/grey"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/menu" />
     </RelativeLayout>
