@@ -15,7 +15,6 @@
         android:layout_height="wrap_content">
 
 
-
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -49,21 +48,20 @@
                             tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
-                            tools:ignore="ContentDescription"
                             android:id="@+id/text_object1"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/official_store"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object1"
                             app:layout_constraintStart_toStartOf="@+id/icon_object1"
-                            app:layout_constraintTop_toBottomOf="@+id/icon_object1" />
+                            app:layout_constraintTop_toBottomOf="@+id/icon_object1"
+                            tools:ignore="ContentDescription" />
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object2"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -71,49 +69,49 @@
                             android:layout_marginTop="16dp"
                             android:src="@drawable/ic_see_all_icon"
                             app:layout_constraintStart_toEndOf="@+id/icon_object1"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text_object2"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/lihat_semua"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object2"
                             app:layout_constraintStart_toStartOf="@id/icon_object2"
                             app:layout_constraintTop_toBottomOf="@+id/icon_object2" />
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_obeject3"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="24dp"
-                            android:src="@drawable/ic_gadgets"
                             android:backgroundTint="@color/green_tokped"
+                            android:src="@drawable/ic_gadgets"
                             app:layout_constraintEnd_toStartOf="@+id/icon_object4"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
-                            tools:ignore="ContentDescription"
                             android:id="@+id/text_object3"
                             android:layout_width="70dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/handphone_tablet"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_obeject3"
                             app:layout_constraintStart_toStartOf="@+id/icon_obeject3"
-                            app:layout_constraintTop_toBottomOf="@+id/icon_obeject3" />
+                            app:layout_constraintTop_toBottomOf="@+id/icon_obeject3"
+                            tools:ignore="ContentDescription" />
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -121,16 +119,17 @@
                             android:layout_marginEnd="24dp"
                             android:src="@drawable/ic_nav_note"
                             app:layout_constraintEnd_toStartOf="@id/icon_object5"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text_gofood"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/top_up_tagihan"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object4"
                             app:layout_constraintStart_toStartOf="@+id/icon_object4"
@@ -138,7 +137,6 @@
 
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object5"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -146,7 +144,8 @@
                             android:layout_marginEnd="24dp"
                             android:src="@drawable/ic_finance"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
                             android:id="@+id/text_object5"
@@ -162,7 +161,6 @@
 
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon_object6"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -170,16 +168,17 @@
                             android:layout_marginTop="16dp"
                             android:src="@drawable/ic_cupcakes"
                             app:layout_constraintStart_toEndOf="@+id/icon_object2"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text_object6"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/kebutuhan_harian"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon_object6"
                             app:layout_constraintStart_toStartOf="@+id/icon_object6"
@@ -204,7 +203,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="15dp"
-                    android:scrollbars="none">
+                    android:scrollbars="none"
+                    tools:ignore="SpeakableTextPresentCheck">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -239,7 +239,6 @@
 
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object1"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -247,23 +246,23 @@
                             android:layout_marginTop="16dp"
                             android:src="@drawable/pedulilindungi"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text2_object1"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/peduli_lindungi"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object1"
                             app:layout_constraintStart_toStartOf="@+id/icon2_object1"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_object1" />
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object2"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -271,48 +270,48 @@
                             android:layout_marginTop="16dp"
                             android:src="@drawable/bangga_lokal"
                             app:layout_constraintStart_toEndOf="@+id/icon2_object1"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text2_object2"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/bangga_lokal"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object2"
                             app:layout_constraintStart_toStartOf="@id/icon2_object2"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_object2" />
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_obeject3"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="36dp"
                             android:src="@drawable/ic_stage"
-
                             app:layout_constraintEnd_toStartOf="@+id/icon2_object4"
-                            app:layout_constraintTop_toTopOf="parent" />
+
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text2_object3"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/bazar_hari_ini"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_obeject3"
                             app:layout_constraintStart_toStartOf="@+id/icon2_obeject3"
                             app:layout_constraintTop_toBottomOf="@+id/icon2_obeject3" />
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object4"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -320,16 +319,17 @@
                             android:layout_marginEnd="36dp"
                             android:src="@drawable/play"
                             app:layout_constraintEnd_toStartOf="@id/icon2_object5"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text2_gofood"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/live_shopping"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object4"
                             app:layout_constraintStart_toStartOf="@+id/icon2_object4"
@@ -337,7 +337,6 @@
 
 
                         <ImageView
-                            tools:ignore="ContentDescription"
                             android:id="@+id/icon2_object5"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
@@ -345,16 +344,17 @@
                             android:layout_marginEnd="36dp"
                             android:src="@drawable/bouquet"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="ContentDescription" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:id="@+id/text2_object5"
                             android:layout_width="60dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="2dp"
                             android:fontFamily="sans-serif-medium"
                             android:text="@string/tokopedia_seru"
+                            android:textAlignment="center"
                             android:textSize="12sp"
                             app:layout_constraintEnd_toEndOf="@id/icon2_object5"
                             app:layout_constraintStart_toStartOf="@+id/icon2_object5"
@@ -440,7 +440,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/berakhir_dalam"
                         android:textSize="12sp"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
 
                     <com.google.android.material.card.MaterialCardView
                         android:layout_width="100dp"
@@ -510,10 +510,10 @@
                 <!--            </HorizontalScrollView>-->
 
                 <HorizontalScrollView
-                    android:layout_marginBottom="50dp"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="15dp"
+                    android:layout_marginBottom="50dp"
                     android:scrollbars="none">
 
                     <LinearLayout

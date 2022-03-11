@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 android:textSize="9sp"
-                android:text="@string/harga_rp"
+                android:text="@string/rp_3_500_00"
                 tools:ignore="SmallSp"/>
             <!--            <TextView-->
             <!--                android:id="@+id/name_produk"-->
@@ -206,7 +206,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="9sp"
-                    android:text="@string/harga_rp"
+                    android:text="@string/rp_1_000_000"
                     tools:ignore="SmallSp"/>
                 <!--            <TextView-->
                 <!--                android:id="@+id/name_produk"-->
@@ -365,7 +365,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="9sp"
-                    android:text="@string/harga_rp"
+                    android:text="@string/rp_2_000_000"
                     tools:ignore="SmallSp"/>
 
                 <LinearLayout
